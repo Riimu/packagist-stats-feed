@@ -1,0 +1,12 @@
+<FilesMatch "^(\.ht.*|composer\.(json|lock)|\.git.*)$">
+    order allow,deny
+    deny from all
+</FilesMatch>
+
+Options -indexes -MultiViews
+
+RewriteEngine On
+RewriteRule ^(app|config|lib|var|vendor|\.git)(/|$) - [F]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)               index.php?path=$1 [L]

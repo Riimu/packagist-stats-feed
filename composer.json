@@ -1,0 +1,6 @@
+{
+  "require": {
+    "riimu/kit-classloader": "4.*",
+    "riimu/kit-csrf": "2.*"
+  }
+}

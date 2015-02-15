@@ -1,0 +1,152 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "74655a11bcb3ef8f735aa3438e8fce2f",
+    "packages": [
+        {
+            "name": "riimu/kit-classloader",
+            "version": "v4.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Riimu/Kit-ClassLoader.git",
+                "reference": "1364732e3e5a81f8c2d31a1195db97431f331341"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Riimu/Kit-ClassLoader/zipball/1364732e3e5a81f8c2d31a1195db97431f331341",
+                "reference": "1364732e3e5a81f8c2d31a1195db97431f331341",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riimu\\Kit\\ClassLoader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riikka Kalliomäki",
+                    "email": "riikka.kalliomaki@gmail.com",
+                    "homepage": "http://riimu.net"
+                }
+            ],
+            "description": "PSR-0 and PSR-4 compatible class autoloader",
+            "homepage": "http://kit.riimu.net",
+            "keywords": [
+                "autoloader",
+                "class",
+                "loader",
+                "psr"
+            ],
+            "time": "2015-01-08 13:48:52"
+        },
+        {
+            "name": "riimu/kit-csrf",
+            "version": "v2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Riimu/Kit-CSRF.git",
+                "reference": "bf3353c8504fc8975fb1d739485607db26b5ea40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Riimu/Kit-CSRF/zipball/bf3353c8504fc8975fb1d739485607db26b5ea40",
+                "reference": "bf3353c8504fc8975fb1d739485607db26b5ea40",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "riimu/kit-securerandom": "1.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riimu\\Kit\\CSRF\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riikka Kalliomäki",
+                    "email": "riikka.kalliomaki@gmail.com",
+                    "homepage": "http://riimu.net"
+                }
+            ],
+            "description": "Secure and simple CSRF library protected against timing and BREACH attacks",
+            "homepage": "http://kit.riimu.net",
+            "keywords": [
+                "csrf",
+                "security"
+            ],
+            "time": "2015-02-06 19:49:26"
+        },
+        {
+            "name": "riimu/kit-securerandom",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Riimu/Kit-SecureRandom.git",
+                "reference": "3b29f51765fee75173d4ee32437071eba05d75a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Riimu/Kit-SecureRandom/zipball/3b29f51765fee75173d4ee32437071eba05d75a2",
+                "reference": "3b29f51765fee75173d4ee32437071eba05d75a2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "suggest": {
+                "ext-mcrypt": "To use the Mcrypt secure random byte generator",
+                "ext-openssl": "To use the OpenSSL secure random byte generator"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Riimu\\Kit\\SecureRandom\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riikka Kalliomäki",
+                    "email": "riikka.kalliomaki@gmail.com",
+                    "homepage": "http://riimu.net"
+                }
+            ],
+            "description": "Library for leveraging available secure random generators",
+            "homepage": "http://kit.riimu.net",
+            "keywords": [
+                "generator",
+                "random",
+                "secure"
+            ],
+            "time": "2015-01-25 16:59:59"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

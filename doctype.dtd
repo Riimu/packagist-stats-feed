@@ -1,0 +1,4 @@
+<!ELEMENT downloads (#PCDATA)>
+<!ELEMENT new_downloads (#PCDATA)>
+<!ELEMENT stars (#PCDATA)>
+<!ELEMENT new_stars (#PCDATA)>
